@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schaltfläche Drucken erstellen</title>
+    <style>
+        @media print {.print-btn {display: none;}} /* Mit Media Print werden die die Regeln für den Druckbereichdefiniert.
+        Innerhalb der Medienabfrage wurde die CSS-Regell{display: none;} hinzugefügt. Somit wird 
+        die Schaltfläche ausgeblendet wenn die Seite gedruckt wird. */
+    </style>
+</head>
+<body>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+    <p>Lass uns etwas Drucken</p>
+    <h3>Dazu benützen wir auch JavaScript</h3>
+
+    
+    <button class="print-btn" onclick="myfun()">Seite drucken</button> <!-- onclick wird benötigt um die Funktion aufzurufen -->
+    <script type="text/javascript">
+        function myfun() {
+            window.print(); // window.print ist eine fest definierte Funktion in JavaScript um Seiten in/aus dem Internet zu drucken.
+        }
+    </script>  
+</body>
+</html>
