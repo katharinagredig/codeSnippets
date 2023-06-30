@@ -5,5 +5,6 @@ int main()
 {
     cout << "Hello World!" << endl;
     cout << "This is a new Line" << endl;
+    cout << "And another new Line" << endl;
     return 0;
 }
